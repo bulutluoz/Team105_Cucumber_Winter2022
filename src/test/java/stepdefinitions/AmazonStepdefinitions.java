@@ -69,4 +69,20 @@ public class AmazonStepdefinitions {
 
         }
     }
+
+    @Then("amazon arama kutusuna {string} yazip aratir")
+    public void amazonAramaKutusunaYazipAratir(String aranacakKelime) {
+
+        amazonPage= new AmazonPage();
+        amazonPage.amazonAramaKutusu.sendKeys(aranacakKelime + Keys.ENTER);
+
+    }
+
+    @And("arama sonuclarinin {string} icerdigini test eder")
+    public void aramaSonuclarininIcerdiginiTestEder(String arananKelime) {
+        String actualAramaSonucu= amazonPage.aramaSonucuElementi.getText();
+
+        Assert.assertTrue(actualAramaSonucu.contains(arananKelime));
+
+    }
 }
