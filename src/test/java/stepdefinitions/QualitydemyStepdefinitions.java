@@ -1,5 +1,6 @@
 package stepdefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pages.QualitydemyPage;
@@ -32,5 +33,11 @@ public class QualitydemyStepdefinitions {
     public void basarili_giris_yapildigini_test_eder() {
 
         Assert.assertTrue(qualitydemyPage.basariliGirisCoursesLinki.isDisplayed());
+    }
+
+    @And("giris yapilamadigini test eder")
+    public void girisYapilamadiginiTestEder() {
+
+        Assert.assertTrue(qualitydemyPage.kullaniciEmailKutusu.isDisplayed());
     }
 }

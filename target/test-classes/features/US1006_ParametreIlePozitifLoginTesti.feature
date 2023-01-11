@@ -1,4 +1,4 @@
-@wip
+
 Feature: US1006 Kullanici configuration dosyasindaki bilgilerle login olabilmeli
   
   Scenario: TC09 Gecerli kullanici adi ve sifre ile Pozitif Login Testi
