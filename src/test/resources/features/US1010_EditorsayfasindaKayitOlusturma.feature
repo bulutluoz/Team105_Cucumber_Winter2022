@@ -1,4 +1,4 @@
-@wip
+
 Feature: US1010 Kullanici Scenario Outline ile Editor sayfasinda kayit olusturur
 
 
