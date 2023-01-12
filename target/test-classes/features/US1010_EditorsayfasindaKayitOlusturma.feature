@@ -23,6 +23,10 @@ Feature: US1010 Kullanici Scenario Outline ile Editor sayfasinda kayit olusturur
     Examples:
     |firstName  |lastName |position |office   |Extension   |startDate   |salary |
     |Ilker      |Bulut    |QA       |Istanbul |levent      |2021-01-01  |20000  |
+    |Ramazan    |Can      |QA lead  |Ankara   |Kizilay     |2021-10-01  |25000  |
+    |Sule       |saglam   |Test lead|Izmir    |Konak       |2022-02-02  |23000  |
+    |Yasar      |U        |QA       |Istanbul |Kadikoy     |2023-01-01  |25000  |
+    |IMeryem    |Toprak   |QA lead  |Istanbul |levent      |2022-11-11  |20000  |
 
 
 
