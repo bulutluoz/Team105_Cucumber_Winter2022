@@ -1,6 +1,6 @@
 Feature: US1008 Scenario Outline ile birden fazla data icin test calistirma
-  @wip
-  Scenario Outline:
+
+  Scenario Outline: TC13 Scenario outline ile amazonda arama yapilabilmeli
 
     # Amazon anasayfaya gidelim. Nutella, Java, Samsung ve Apple icin arama yapip
     # arama sonuclarinin aradigimiz kelimeyi icerdigini test edelim
