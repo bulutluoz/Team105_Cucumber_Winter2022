@@ -1,5 +1,5 @@
 
-
+@p2
 Feature: US1005 Kullanici bastaki ortak adimlar icin Background kullanir
 
   Background: Tum scenario'lar icin ortak ilk adim
