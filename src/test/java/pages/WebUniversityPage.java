@@ -12,4 +12,17 @@ public class WebUniversityPage {
 
     @FindBy(xpath = "//h1[text() ='LOGIN PORTAL']")
     public WebElement loginPortalButonu;
+
+
+    @FindBy(id = "text")
+    public WebElement userNameKutusu;
+
+    @FindBy(id = "password")
+    public WebElement passwordKutusu;
+
+    @FindBy(id = "login-button")
+    public WebElement loginButonu;
+
+    @FindBy(xpath = "//h1[text()='CONTACT US']")
+    public WebElement contactUsLinki;
 }
