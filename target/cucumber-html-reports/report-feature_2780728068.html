@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
 
-<title>Cucumber Reports (no 1) - Feature: US1003 Kullanici parametre olarak girilen degerleri aratir</title>
+<title>Cucumber Reports (no 1) - Feature: US1013 Kullanici Web tablosunda istedigi degerin varligini test eder</title>
 
 </head>
 <body>
@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>cucumber-jvm-example</td>
         <td>1</td>
-      <td>13 Jan 2023, 20:16</td>
+      <td>18 Jan 2023, 19:51</td>
     </tr>
   </tbody>
 </table>
@@ -128,20 +128,20 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">US1003 Kullanici parametre olarak girilen degerleri aratir</td>
-          <td      class="passed"    >5</td>
+          <td class="tagname">US1013 Kullanici Web tablosunda istedigi degerin varligini test eder</td>
+          <td      class="passed"    >3</td>
+          <td      class="failed"    >1</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td >0</td>
-          <td class="total">5</td>
+          <td class="total">4</td>
 
-          <td  class="passed"    >1</td>
           <td >0</td>
+          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="11807279000">11.807</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="4904574000">4.904</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -173,9 +173,9 @@ $(document).ready(function() {
 </div>
 
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Feature</span>
-  <span class="name">US1003 Kullanici parametre olarak girilen degerleri aratir</span>
+  <span class="name">US1013 Kullanici Web tablosunda istedigi degerin varligini test eder</span>
 
 
 </div>
@@ -189,18 +189,18 @@ $(document).ready(function() {
 
 <div class="tags indention">
     <b>Tags:</b>
-       <a href="report-tag_2147548673.html">@p2</a>
+       <a href="report-tag_2149507997.html">@wip</a>
 </div>
 
 
-  <span class="lead-duration duration">11.807</span>
+  <span class="lead-duration duration">4.904</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">TC04 Kullanici Parametreli method ile Java aratir</span>
+  <span class="name">TC18 Kullanici tablodan deger test edebilmeli</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -209,16 +209,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -228,15 +228,42 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details ">
+  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
 <div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
-  <span class="name">kullanici amazon anasayfaya gider</span>
+  <span class="name">kullanici <span class="argument">&quot;guru99Url&quot;</span> anasayfaya gider</span>
 
-  <span class="lead-duration duration">4.223</span>
+  <span class="lead-duration duration">4.423</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">guru99 cookies kabul eder</span>
+
+  <span class="lead-duration duration">0.114</span>
 
 </div>
 
@@ -261,36 +288,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">amazon arama kutusuna <span class="argument">&quot;Java&quot;</span> yazip aratir</span>
+  <span class="name">Company listesini consola yazdirir</span>
 
-  <span class="lead-duration duration">2.399</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">arama sonuclarinin <span class="argument">&quot;Java&quot;</span> icerdigini test eder</span>
-
-  <span class="lead-duration duration">0.039</span>
+  <span class="lead-duration duration">0.365</span>
 
 </div>
 
@@ -313,11 +313,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And failed">
   <span class="keyword indention">And</span>
-  <span class="name">5 saniye bekler</span>
+  <span class="name"><span class="argument">&quot;NCC&quot;</span> in listede oldugunu test eder</span>
 
-  <span class="lead-duration duration">5.007</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -326,32 +326,22 @@ $(document).ready(function() {
 
 
 
-
-
-
-
-
-
-
-
-
-
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
+          <a>java.lang.AssertionError</a>
       </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">sayfayi kapatir</span>
-
-  <span class="lead-duration duration">0.136</span>
-
-</div>
-
-
-
-
-
+      <div id="msg-3" class="collapse collapsable-details  in ">
+        <pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.Guru99Stepdefinitions.in_listede_oldugunu_test_eder(Guru99Stepdefinitions.java:34)
+	at &#10045;.&quot;NCC&quot; in listede oldugunu test eder(file:///Users/ahmetbulutluoz/IdeaProjects/com.team105Cucumber/src/test/resources/features/US1013_guru99.feature:8)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -371,7 +361,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-3">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -383,13 +373,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-3" class="inner-level collapse collapsable-details ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.371</span>
+  <span class="lead-duration duration">1.497</span>
 
           </div>
 
@@ -398,6 +388,21 @@ $(document).ready(function() {
 
 
 
+  <div class="embeddings inner-level">
+  <div class="embedding indention">
+    <div data-toggle="collapse" data-target="#embedding-5" class="collapsable-control">
+      <a>screenshots</a>
+      <a href="embeddings/embedding_1144670662.png" download target="_blank">
+        <span class="download-button glyphicon glyphicon-download-alt"></span>
+      </a>
+    </div>
+    <div id="embedding-5" class="collapse collapsable-details ">
+      <div class="embedding-content">
+        <img src="embeddings/embedding_1144670662.png">
+      </div>
+    </div>
+  </div>
+  </div>
 
         </div>
     </div>

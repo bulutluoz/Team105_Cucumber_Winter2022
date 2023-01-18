@@ -13,9 +13,12 @@ public class Guru99Page {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(xpath = "(//div[@class='action-wrapper'])[3]")
-    public WebElement accceptCookies;
+    @FindBy(xpath = "//span[text()='Accept All']")
+    public WebElement acceptCookies;
 
     @FindBy(xpath = "//tbody/tr/td[1]")
     public List<WebElement> companyElementList;
+
+    @FindBy(xpath = "//iframe[@class='faktor-iframe-wrapper']")
+    public WebElement cookiesIframe;
 }

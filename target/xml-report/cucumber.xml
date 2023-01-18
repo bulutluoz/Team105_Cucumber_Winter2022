@@ -1,41 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.483">
-    <testcase classname="US1013 Kullanici Web tablosunda istedigi degerin varligini test eder" name="TC18 Kullanici tablodan deger test edebilmeli" time="21.393">
-        <failure message="Unable to locate element: (//div[@class='action-wrapper'])[3]&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.3', revision: '4b786a1e430'&#10;System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.1', java.version: '11.0.15.1'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [a96b33ec-242f-4091-822c-150dee25e12a, findElement {using=xpath, value=(//div[@class='action-wrapper'])[3]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.4, moz:accessibilityChecks: false, moz:buildID: 20221102214123, moz:debuggerAddress: 127.0.0.1:47319, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21446, moz:profile: /var/folders/k5/tn4cs92s1h3..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:47319/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: a96b33ec-242f-4091-822c-150dee25e12a" type="org.openqa.selenium.NoSuchElementException">
-            <![CDATA[Given kullanici "guru99Url" anasayfaya gider................................passed
-And guru99 cookies kabul eder...............................................failed
-Then Company listesini consola yazdirir.....................................skipped
-And "NCC" in listede oldugunu test eder.....................................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: Unable to locate element: (//div[@class='action-wrapper'])[3]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.5.3', revision: '4b786a1e430'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.1', java.version: '11.0.15.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [a96b33ec-242f-4091-822c-150dee25e12a, findElement {using=xpath, value=(//div[@class='action-wrapper'])[3]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.4, moz:accessibilityChecks: false, moz:buildID: 20221102214123, moz:debuggerAddress: 127.0.0.1:47319, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21446, moz:profile: /var/folders/k5/tn4cs92s1h3..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:47319/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a96b33ec-242f-4091-822c-150dee25e12a
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
-	at stepdefinitions.Guru99Stepdefinitions.guru99_cookies_kabul_eder(Guru99Stepdefinitions.java:19)
-	at ✽.guru99 cookies kabul eder(file:///Users/ahmetbulutluoz/IdeaProjects/com.team105Cucumber/src/test/resources/features/US1013_guru99.feature:6)
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.136">
+    <testcase classname="US1014 Automation exercise sitesinde kullanici olusturma" name="TC19 Kullanici automation excercise sayfasinda kullanici olusturabilmeli" time="0.024">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici "automationUrl" anasayfaya gider............................passed
+And user sign in linkine tiklar.............................................undefined
+And user Create and account bölümüne email adresi girer.....................skipped
+And Create an Account butonuna basar........................................skipped
+And user kisisel bilgilerini ve iletisim bilgilerini girer..................skipped
+And user Register butonuna basar............................................skipped
+Then hesap olustugunu dogrulayin............................................skipped
 ]]>
         </failure>
     </testcase>

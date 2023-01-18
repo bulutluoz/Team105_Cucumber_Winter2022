@@ -3,10 +3,13 @@
 /Users/ahmetbulutluoz/IdeaProjects/com.team105Cucumber/src/test/java/stepdefinitions/AmazonStepdefinitions.java
 /Users/ahmetbulutluoz/IdeaProjects/com.team105Cucumber/src/test/java/utilities/ConfigReader.java
 /Users/ahmetbulutluoz/IdeaProjects/com.team105Cucumber/src/test/java/stepdefinitions/Hooks.java
+/Users/ahmetbulutluoz/IdeaProjects/com.team105Cucumber/src/test/java/pages/Guru99Page.java
 /Users/ahmetbulutluoz/IdeaProjects/com.team105Cucumber/src/test/java/pages/EditorPage.java
-/Users/ahmetbulutluoz/IdeaProjects/com.team105Cucumber/src/test/java/runners/Runner.java
 /Users/ahmetbulutluoz/IdeaProjects/com.team105Cucumber/src/test/java/runners/ParalelRunner2.java
+/Users/ahmetbulutluoz/IdeaProjects/com.team105Cucumber/src/test/java/runners/RunnerYeni.java
+/Users/ahmetbulutluoz/IdeaProjects/com.team105Cucumber/src/test/java/utilities/ReusableMethods.java
 /Users/ahmetbulutluoz/IdeaProjects/com.team105Cucumber/src/test/java/stepdefinitions/HerokuappStepdefinitions.java
+/Users/ahmetbulutluoz/IdeaProjects/com.team105Cucumber/src/test/java/stepdefinitions/Guru99Stepdefinitions.java
 /Users/ahmetbulutluoz/IdeaProjects/com.team105Cucumber/src/test/java/stepdefinitions/QualitydemyStepdefinitions.java
 /Users/ahmetbulutluoz/IdeaProjects/com.team105Cucumber/src/test/java/pages/HerokuappPage.java
 /Users/ahmetbulutluoz/IdeaProjects/com.team105Cucumber/src/test/java/runners/ParalelRunner1.java

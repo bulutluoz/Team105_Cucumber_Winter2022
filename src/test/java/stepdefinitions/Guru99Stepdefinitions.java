@@ -3,8 +3,10 @@ package stepdefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import pages.Guru99Page;
+import utilities.Driver;
 import utilities.ReusableMethods;
 
 import java.util.List;
@@ -16,7 +18,9 @@ public class Guru99Stepdefinitions {
 
     @Given("guru99 cookies kabul eder")
     public void guru99_cookies_kabul_eder() {
-        guru99Page.accceptCookies.click();
+
+        Driver.getDriver().switchTo().frame(guru99Page.cookiesIframe);
+        guru99Page.acceptCookies.click();
     }
     @Then("Company listesini consola yazdirir")
     public void company_listesini_consola_yazdirir() {
