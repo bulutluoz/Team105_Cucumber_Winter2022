@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.136">
-    <testcase classname="US1014 Automation exercise sitesinde kullanici olusturma" name="TC19 Kullanici automation excercise sayfasinda kullanici olusturabilmeli" time="0.024">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.619">
+    <testcase classname="US1014 Automation exercise sitesinde kullanici olusturma" name="TC19 Kullanici automation excercise sayfasinda kullanici olusturabilmeli" time="13.526">
+        <system-out>
             <![CDATA[Given kullanici "automationUrl" anasayfaya gider............................passed
-And user sign in linkine tiklar.............................................undefined
-And user Create and account bölümüne email adresi girer.....................skipped
-And Create an Account butonuna basar........................................skipped
-And user kisisel bilgilerini ve iletisim bilgilerini girer..................skipped
-And user Register butonuna basar............................................skipped
-Then hesap olustugunu dogrulayin............................................skipped
+And user sign in linkine tiklar.............................................passed
+And user Create and account bolumune email adresi girer.....................passed
+And Create an Account butonuna basar........................................passed
+And user kisisel bilgilerini ve iletisim bilgilerini girer..................passed
+And user Register butonuna basar............................................passed
+Then hesap olustugunu dogrulayin............................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
 </testsuite>

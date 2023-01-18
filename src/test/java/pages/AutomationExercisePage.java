@@ -22,4 +22,13 @@ public class AutomationExercisePage {
 
     @FindBy(xpath = "//button[text()='Signup']")
     public WebElement signUpButonu;
+
+    @FindBy(xpath = "//input[@id='id_gender1']")
+    public WebElement mrRadioButonu;
+
+    @FindBy(xpath = "//*[text()='Create Account']")
+    public WebElement createAccountButonu;
+
+    @FindBy(xpath = "//b[text()='Account Created!']")
+    public WebElement accountCreatedYaziElementi;
 }
