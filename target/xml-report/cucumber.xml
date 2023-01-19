@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.855">
+    <testcase classname="US1016 aranan urunun ortlama fiyatini test etme" name="TC21 aranan urunun ortalama fiyati test edilebilmeli" time="6.757">
+        <system-out>
+            <![CDATA[Given kullanici "amazonUrl" anasayfaya gider................................passed
+Then amazon arama kutusuna "Nutella" yazip aratir...........................passed
+And cikan urunlerden "Nutella" kelimesi icerenlerin fiyat ortalamasinin 20 euro altinda oldugunu test eder.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
