@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="34.737">
+    <testcase classname="US1003 Kullanici parametre olarak girilen degerleri aratir" name="TC04 Kullanici Parametreli method ile Java aratir" time="13.915">
+        <system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+Then amazon arama kutusuna "Java" yazip aratir..............................passed
+And arama sonuclarinin "Java" icerdigini test eder..........................passed
+And 5 saniye bekler.........................................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1005 Kullanici bastaki ortak adimlar icin Background kullanir" name="TC03 Kullanici Parametreli method ile Nutella aratir" time="6.567">
+        <system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+Then amazon arama kutusuna "Nutella" yazip aratir...........................passed
+And arama sonuclarinin "Nutella" icerdigini test eder.......................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1005 Kullanici bastaki ortak adimlar icin Background kullanir" name="TC04 Kullanici Parametreli method ile Java aratir" time="6.929">
+        <system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+Then amazon arama kutusuna "Java" yazip aratir..............................passed
+And arama sonuclarinin "Java" icerdigini test eder..........................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1005 Kullanici bastaki ortak adimlar icin Background kullanir" name="TC05 Kullanici Parametreli method ile Samsung aratir" time="7.2">
+        <system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+Then amazon arama kutusuna "Samsung" yazip aratir...........................passed
+And arama sonuclarinin "Samsung" icerdigini test eder.......................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

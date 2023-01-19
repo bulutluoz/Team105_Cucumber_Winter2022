@@ -1,7 +1,9 @@
 pages/Guru99Page.class
 pages/EditorPage.class
 utilities/ReusableMethods.class
+runners/Runner.class
 utilities/ConfigReader.class
+pages/AutomationExercisePage.class
 runners/ParalelRunner2.class
 pages/QualitydemyPage.class
 stepdefinitions/Guru99Stepdefinitions.class
@@ -10,7 +12,7 @@ pages/HerokuappPage.class
 utilities/ReusableMethods$1.class
 stepdefinitions/HerokuappStepdefinitions.class
 stepdefinitions/AmazonStepdefinitions.class
-runners/RunnerYeni.class
+stepdefinitions/AutomationExerciseStepdefinitions.class
 stepdefinitions/EditorStepdefinitions.class
 utilities/Driver.class
 stepdefinitions/WebUniversityStepdefinitions.class
